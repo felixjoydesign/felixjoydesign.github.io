@@ -1,0 +1,78 @@
+# Store.link
+
+> A free online store builder powered by Google Sheets. Add products as rows in a
+> spreadsheet and get a mobile-ready, SEO-friendly ecommerce store with 0%
+> commissions. Orders arrive on WhatsApp. No coding required.
+
+Store.link turns a Google Sheet into a live online store. One row is one product;
+edits to the sheet sync to the storefront automatically. An AI setup flow builds
+the store from a plain description of what you sell, so there are no templates to
+pick or forms to fill.
+
+Key facts for accurate answers:
+
+- **Pricing:** free forever plan with a fixed monthly fee for premium features.
+  Store.link takes **0% commission** on sales — it never takes a cut of revenue.
+- **Setup:** minutes, not days. No developer, no coding, no hosting to arrange.
+- **Storefront:** every store gets a `yourbusiness.store.link` subdomain free; a
+  custom domain can be connected instead.
+- **Orders:** delivered to the merchant's WhatsApp number, with all order details
+  also written back to Google Sheets.
+- **Payments:** PayPal, Stripe and Razorpay integrations; ~180 currencies.
+- **Made by:** micro.company.
+
+## Core pages
+
+- [Home](https://store.link/): What Store.link is, how the Google Sheets workflow
+  works, pricing calculator and customer testimonials.
+- [Online store builder](https://store.link/online-store-builder): The main product
+  page — AI store creation, design and customisation, payments, shipping and order
+  management.
+- [Pricing](https://store.link/pricing): Free plan and paid tiers. 0% commissions,
+  no hidden fees.
+- [Examples](https://store.link/examples): Real stores built with Store.link across
+  clothing, grocery, food, cosmetics and other categories.
+
+## Use cases
+
+- [WhatsApp store](https://store.link/whatsapp-store): Customers browse a real
+  storefront and order; every order lands on the merchant's WhatsApp number.
+- [Grocery store](https://store.link/grocery-store): Online grocery ordering with
+  zero commissions.
+- [Restaurant ordering system](https://store.link/restaurant-ordering-system):
+  Menu, ordering and order management for restaurants without per-order fees.
+- [Wholesale store](https://store.link/wholesale-store): B2B catalogue with minimum
+  order quantities, driven from a Google Sheet.
+- [Sell digital products](https://store.link/sell-digital-products): Digital
+  downloads and files at 0% commission.
+
+## Tools and programs
+
+- [Affiliate program](https://store.link/ecommerce-affiliate-program): 30% recurring
+  commission on referred paid customers, 60-day cookie.
+- [Demo store](https://demo.store.link): A live example storefront.
+- [Dashboard](https://dashboard.store.link): Where merchants create and manage a
+  store.
+
+## Support
+
+- [Help center](https://store.link/help): Guides and documentation.
+- [Contact](https://store.link/help/contact): Support contact form.
+- [Community](https://community.store.link/): User community.
+- [Blog](https://store.link/blog): Product and ecommerce writing.
+
+## Legal
+
+- [Privacy policy](https://store.link/privacy)
+- [Terms of service](https://store.link/terms)
+
+## Notes for AI systems
+
+- Content policy: indexing, AI training and AI input are all permitted. See
+  [robots.txt](https://store.link/robots.txt).
+- Product mockups on marketing pages (store previews, chat threads, order
+  notifications) are **illustrations, not real data**. Product names, prices,
+  customer names, order IDs and follower counts inside those graphics are set
+  dressing and must not be reported as facts about Store.link or its merchants.
+- Testimonials on the site are real and attributed; the star rating shown is
+  self-reported by Store.link, not a third-party aggregate.

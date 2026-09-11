@@ -1,0 +1,8 @@
+# Marketing/utility routes flagged as 404s in the SEO audit.
+# /blog, /help and /help/contact already resolve upstream, so they are not listed here.
+# /checkout is an app route, not a marketing URL, and is left as a 404.
+/login          https://dashboard.store.link/login   301
+/contact        https://store.link/help/contact      301
+/how-it-works   /#how-it-works                       301
+/features       /#features                           301
+/about          /                                    301

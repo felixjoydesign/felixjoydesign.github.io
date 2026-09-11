@@ -1,0 +1,1 @@
+import{i as e}from"./auth.CvYvjXaN.js";e&&(document.querySelectorAll("footer .hide-on-login").forEach(o=>{o.style.display="none"}),document.querySelectorAll("footer .show-on-login").forEach(o=>{o.style.display="inline-flex"}));
