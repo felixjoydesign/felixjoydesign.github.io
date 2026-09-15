@@ -1,3 +1,178 @@
-# Preview build of store.link, not for indexing.
+# robots.txt for store.link
+# Policy: allow search indexing AND AI training/input.
+# Content Signals (https://contentsignals.org/) make this explicit so AI
+# crawlers and downstream tools can honor the publisher's stated preference.
+
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Default: open to all well-behaved crawlers.
 User-agent: *
-Disallow: /
+Allow: /
+
+# Deliberately NOT disallowed here: /add-products-mockup, /loader-animation
+# and /tools/invoice-generator-v2. Each serves
+# <meta name="robots" content="noindex, nofollow"> from the page itself.
+# A robots.txt Disallow would stop crawlers fetching the page at all, so they
+# would never read that tag — and a URL with inbound links can stay indexed as
+# a bare result. Crawling is allowed; indexing is refused at the page. They are
+# also excluded from the sitemap.
+
+# --- Search engines (explicit allow) ---
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Apple: powers Siri, Spotlight and Safari suggestions
+User-agent: Applebot
+Allow: /
+
+# --- AI / LLM crawlers (explicit allow) ---
+
+# OpenAI: training crawler
+User-agent: GPTBot
+Allow: /
+
+# OpenAI: search index crawler (powers ChatGPT browsing/search)
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI: on-demand user-triggered fetches from ChatGPT
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic: training crawler
+User-agent: ClaudeBot
+Allow: /
+
+# Anthropic: user-triggered fetches via Claude
+User-agent: Claude-User
+Allow: /
+
+# Anthropic: search-style indexing
+User-agent: Claude-SearchBot
+Allow: /
+
+# Anthropic (legacy)
+User-agent: Claude-Web
+Allow: /
+
+# Anthropic (legacy)
+User-agent: anthropic-ai
+Allow: /
+
+# Google: controls inclusion in Gemini / Vertex AI training/grounding
+User-agent: Google-Extended
+Allow: /
+
+# Google: Vertex AI agent grounding fetches
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Perplexity user-triggered
+User-agent: Perplexity-User
+Allow: /
+
+# Common Crawl (used by many LLM training datasets)
+User-agent: CCBot
+Allow: /
+
+# Meta / Llama
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Bytedance
+User-agent: Bytespider
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# DuckDuckGo AI Assist
+User-agent: DuckAssistBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Allen Institute for AI
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Ai2Bot-Dolma
+Allow: /
+
+# Webz.io (feeds several training datasets)
+User-agent: Omgilibot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+User-agent: Webzio-Extended
+Allow: /
+
+# Diffbot
+User-agent: Diffbot
+Allow: /
+
+# ImageSift
+User-agent: ImagesiftBot
+Allow: /
+
+# Timpi
+User-agent: TimpiBot
+Allow: /
+
+# Huawei
+User-agent: PanguBot
+Allow: /
+
+# Semrush AI overview crawler
+User-agent: SemrushBot-OCOB
+Allow: /
+
+# Structured summary for LLMs: https://store.link/llms.txt
+
+Sitemap: https://store.link/sitemap.xml
