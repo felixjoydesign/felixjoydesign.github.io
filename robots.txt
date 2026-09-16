@@ -1,25 +1,3 @@
-# robots.txt for felixjoydesign.github.io
-#
-# This host is a preview mirror: a staging copy of store.link, published so a
-# change can be looked at before it ships. It is the same pages at a different
-# address, which is the definition of duplicate content, so none of it is for
-# the index.
-#
-# This file governs the WHOLE HOST, not just this repository. robots.txt is
-# resolved per origin, so a project site published from another repo, such as
-# /storelink-seo-test/, is covered by this file and cannot override it with one
-# of its own. Blocking here is the only place blocking has to happen, and the
-# only place it can.
-#
-# ┌─ THIS FILE GETS OVERWRITTEN ───────────────────────────────────────────────┐
-# │ The preview is deployed by copying the site's dist/ directory over this     │
-# │ repository, and dist/robots.txt is the production file, which invites every │
-# │ crawler in. Any deploy that copies dist/ without excluding robots.txt puts  │
-# │ the permissive version back and reopens the mirror to indexing.             │
-# │                                                                             │
-# │ It has already happened twice. If you are scripting a deploy here, exclude  │
-# │ this path:  rsync -a --delete --exclude '.git' --exclude 'robots.txt' ...   │
-# └─────────────────────────────────────────────────────────────────────────────┘
-
+# Preview build of store.link, not for indexing.
 User-agent: *
 Disallow: /
