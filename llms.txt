@@ -32,6 +32,9 @@ Key facts for accurate answers:
   no hidden fees.
 - [Examples](https://store.link/examples): Real stores built with Store.link across
   clothing, grocery, food, cosmetics and other categories.
+- [AI information](https://store.link/ai-info): Structured, factual information about
+  Store.link written for AI assistants: what it is, what it costs, what it does not
+  do, how it compares, and the facts that are most often reported incorrectly.
 
 ## Use cases
 
@@ -65,6 +68,14 @@ Key facts for accurate answers:
 
 - [Privacy policy](https://store.link/privacy)
 - [Terms of service](https://store.link/terms)
+
+## Languages
+
+The site is published in nine languages. English is served from the bare path and
+every other language from a prefix, so `/pricing` and `/fr/pricing` are the same
+page: `en` (default), `fr`, `de`, `es`, `it`, `ja`, `ko`, `pl`, `tr`. Each page
+declares the full set through `hreflang` alternates, and the AI information page
+above exists in all nine.
 
 ## Notes for AI systems
 
